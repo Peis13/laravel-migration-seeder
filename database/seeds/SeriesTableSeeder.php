@@ -18,6 +18,7 @@ class SeriesTableSeeder extends Seeder
             $new_serie->titolo = $faker->word;
             $new_serie->trama = $faker->text(1000);
             $new_serie->voto = $faker->numberBetween(1, 10);
+            $new_serie->stagioni = $faker->numberBetween(1, 5);
             $new_serie->lingua = $faker->randomElement([
                 'italiano',
                 'inglese',

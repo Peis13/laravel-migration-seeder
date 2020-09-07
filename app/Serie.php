@@ -11,5 +11,6 @@ class Serie extends Model
         'trama',
         'voto',
         'lingua',
+        'stagioni',
     ];
 }
